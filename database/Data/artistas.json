@@ -1,27 +1,27 @@
 [
     {
-        "nombre": "Griffith",
-        "descripcion": "Surveyor",
+        "nombre": "Charlie Puth",
+        "descripcion": "Singer",
         "imagen": "http://dummyimage.com/230x100.png/cc0000/ffffff"
     },
     {
-        "nombre": "Fernando",
+        "nombre": "Rodrigo",
         "descripcion": "Surveyor",
         "imagen": "http://dummyimage.com/213x100.png/dddddd/000000"
     },
     {
-        "nombre": "Thomasine",
-        "descripcion": "Supervisor",
+        "nombre": "Green Day",
+        "descripcion": "Heavy",
         "imagen": "http://dummyimage.com/104x100.png/ff4444/ffffff"
     },
     {
-        "nombre": "Saxon",
-        "descripcion": "Architect",
+        "nombre": "Rick",
+        "descripcion": "Power",
         "imagen": "http://dummyimage.com/175x100.png/5fa2dd/ffffff"
     },
     {
-        "nombre": "Cherida",
-        "descripcion": "Construction Manager",
+        "nombre": "Ricardo",
+        "descripcion": "Talento Latino",
         "imagen": "http://dummyimage.com/131x100.png/ff4444/ffffff"
         
     }
