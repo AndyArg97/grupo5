@@ -1,0 +1,34 @@
+[
+    {
+        "titulo": "Latino",
+        "descripcion": "Project Manager",
+        "anio": "2009",
+        "imagen": "http://dummyimage.com/117x100.png/dddddd/000000",
+        "artistaID": "627917cef1fd5b30106c1af7"
+        
+    },
+    {
+        "titulo": "Reggeton",
+        "descripcion": "Supervisor",
+        "anio": "2022",
+        "imagen": "http://dummyimage.com/120x100.png/cc0000/ffffff",
+        "artistaID": "627917cef1fd5b30106c1af7"
+        
+    },
+    {
+        "titulo": "Cumbia",
+        "descripcion": "Construction Manager",
+        "anio": "2010",
+        "imagen": "http://dummyimage.com/201x100.png/dddddd/000000",
+        "artistaID": "627917cef1fd5b30106c1af9"
+        
+    },
+    {
+        "titulo": "Hip Hop",
+        "descripcion": "Project Manager",
+        "anio": "1999",
+        "imagen": "http://dummyimage.com/244x100.png/ff4444/ffffff",
+        "artistaID": "627917cef1fd5b30106c1af9"
+            
+    }
+]
