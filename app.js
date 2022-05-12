@@ -63,7 +63,6 @@ app.delete('/usuarios/:id', (req, res) => {
         .catch(error => console.error(error))
 })
 
-
 app.get('/getArtista', (req, res) => {
     Artista.find({})
         .then((list) => {res.send(list); console.log(list)})
@@ -93,8 +92,6 @@ app.put('/putArtista/:id', (req, res) => {
         .catch(error => console.error(error))
 })
 
-
-
 app.delete('/artistas/:id', (req, res) => {
     Artista.deleteOne(
         { nombre: req.params.id }
@@ -104,9 +101,6 @@ app.delete('/artistas/:id', (req, res) => {
         })
         .catch(error => console.error(error))
 })
-
-
-
 
 app.get('/getAlbums', (req, res) => {
     Album.find({})
@@ -191,8 +185,6 @@ app.delete('/deletMusica/:id', (req, res) => {
         .catch(error => console.error(error))
 })
 
-// consultas
-
 app.get('/artistaAlbum/:id', (req, res) => {
     Musica.find({artistaID: req.params.id})
         .populate('albumID')        
@@ -200,7 +192,6 @@ app.get('/artistaAlbum/:id', (req, res) => {
         .catch( (error) => {console.log(error)});
 })
 
-// 2. Escriba una consulta que muestre Todos los ALBUMS de cualquier artista
 app.get('/todosLosAlbunes', (req, res) => {
     Album.find()
         .select('titulo')    
