@@ -8,24 +8,24 @@
         
     },
     {
-        "titulo": "Reggeton",
-        "descripcion": "Supervisor",
-        "anio": "2022",
+        "titulo": "Rock",
+        "descripcion": "Heavy Metal",
+        "anio": "2004",
         "imagen": "http://dummyimage.com/120x100.png/cc0000/ffffff",
         "artistaID": "627917cef1fd5b30106c1af7"
         
     },
     {
         "titulo": "Cumbia",
-        "descripcion": "Construction Manager",
-        "anio": "2010",
+        "descripcion": "Los mejores cumbiones",
+        "anio": "2015",
         "imagen": "http://dummyimage.com/201x100.png/dddddd/000000",
         "artistaID": "627917cef1fd5b30106c1af9"
         
     },
     {
         "titulo": "Hip Hop",
-        "descripcion": "Project Manager",
+        "descripcion": "El mejor hip hop de barrio",
         "anio": "1999",
         "imagen": "http://dummyimage.com/244x100.png/ff4444/ffffff",
         "artistaID": "627917cef1fd5b30106c1af9"
