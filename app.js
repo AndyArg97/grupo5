@@ -10,7 +10,6 @@ const { Schema } = require('./database/mongoose');
 const { path } = require('express/lib/application');
 const { populate } = require('./database/models/usuario/usuario');
 
-// configuracion cabeceras http
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
@@ -21,10 +20,7 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.json());
-// creacion de un usuario modo test
-// const user = new Usuario({ nombre: 'test1'});
-// user.save();
-// rutas
+
 app.get('/usuarios', (req, res) => {
     Usuario.find({})
         .then((list) => {res.send(list); console.log(list)})
@@ -67,7 +63,7 @@ app.delete('/usuarios/:id', (req, res) => {
         .catch(error => console.error(error))
 })
 
-// CRUD ARTISTA MOSTRAR
+
 app.get('/getArtista', (req, res) => {
     Artista.find({})
         .then((list) => {res.send(list); console.log(list)})
@@ -111,7 +107,7 @@ app.delete('/artistas/:id', (req, res) => {
 
 
 
-// CRUD ALBUM
+
 app.get('/getAlbums', (req, res) => {
     Album.find({})
         .then((list) => {res.send(list); console.log(list)})
@@ -152,7 +148,7 @@ app.delete('/albums/:id', (req, res) => {
         })
         .catch(error => console.error(error))
 }) 
-//Musica
+
 app.get('/getMusica', (req, res) => {
     Musica.find({})
         .then((list) => {res.send(list); console.log(list)})
